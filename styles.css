@@ -23,7 +23,13 @@ a {
 
 .hero-main {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882f6;
+    color: white ;
+    border-radius: 7px;
 }
 
 ul {
