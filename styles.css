@@ -8,14 +8,25 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
+
 }
+
+.hero {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 
 .header {
     display: flex;
+    justify-content: space-between;
     font-size: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 a {
+    
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -38,6 +49,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    gap: 20px;
     
 }
 
@@ -45,6 +57,13 @@ ul {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
 }
 
 .call {
