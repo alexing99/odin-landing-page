@@ -30,6 +30,8 @@ button {
     background-color: #3882f6;
     color: white ;
     border-radius: 7px;
+    border-color: #1f2937;
+
 }
 
 ul {
@@ -37,6 +39,20 @@ ul {
     justify-content: flex-end;
     list-style-type: none;
     
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.call {
+    background-color: #3882f6;
+}
+
+.call-button {
+    border-color: white;
 }
 
 
