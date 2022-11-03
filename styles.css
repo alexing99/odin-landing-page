@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'roboto';
 }
 
 .header-hero {
@@ -12,10 +13,21 @@ body {
 }
 
 .hero {
+    display: flex;
     margin-left: 150px;
     margin-right: 150px;
+    justify-content: space-between;
+    
 }
 
+
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
 
 .header {
     display: flex;
@@ -23,6 +35,7 @@ body {
     font-size: 24px;
     margin-left: 150px;
     margin-right: 150px;
+    font-family: 'roboto';
 }
 
 a {
@@ -35,6 +48,19 @@ a {
 .hero-main {
     font-size: 48px;
     font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-sec {
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    font-family:'roboto';
+}
+
+.hero-button {
+    flex: none;
 }
 
 button {
