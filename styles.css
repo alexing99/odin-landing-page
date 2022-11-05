@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-
 }
 
 .hero {
@@ -18,17 +17,13 @@ body {
     margin-right: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
-
 
 .left-hero {
     display: flex;
     flex-direction: column;
     gap: 5px;
-
 }
 
 .header {
@@ -40,8 +35,7 @@ body {
     font-family: 'roboto';
 }
 
-a {
-    
+a {  
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -93,10 +87,8 @@ ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    gap: 20px;
-    
+    gap: 20px; 
 }
-
 
 .info {
     font-size: 36px;
@@ -113,21 +105,52 @@ ul {
 .quote {
     margin-left: 250px;
     margin-right: 250px;
+    margin-bottom: 0;
     font-size: 36px;
     color: #1f2937;
     font-style: light italic;
 }
 
+.bob {
+    margin-right: 250px;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+
 .call {
+    display: flex;
+    justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
-    display: flex;
     background-color: #3882f6;
-    border-radius: 7px;
+    color: white;
+    border-radius: 6px;
     padding: 10px 30px 10px 30px;
 }
+
+.call-text {
+   display: flex; 
+   flex-direction: column;
+   align-items: flex-start;
+   margin: 0;
+   gap: 10px;
+
+}
+
 .call-button {
     border-color: white;
+
 }
 
 .footer {
@@ -135,6 +158,7 @@ ul {
     text-align: center;
     color: white;
     padding: 40px;
+    margin: 0;
 }
 
 
