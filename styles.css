@@ -90,6 +90,16 @@ ul {
     gap: 20px; 
 }
 
+li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+li p {
+    text-align: center;
+}
+
 .info {
     font-size: 36px;
     font-weight: 800;
@@ -137,7 +147,7 @@ ul {
     background-color: #3882f6;
     color: white;
     border-radius: 6px;
-    padding: 35px 60px 35px 60px;
+    padding: 35px 70px 35px 70px;
 }
 
 .call-text {
