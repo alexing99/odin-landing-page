@@ -67,7 +67,7 @@ button {
     background-color: #3882f6;
     color: white ;
     border-radius: 7px;
-    border-color: #1f2937;
+    border: none;
 }
 
 img {
@@ -131,26 +131,40 @@ ul {
 .call {
     display: flex;
     justify-content: space-between;
+    flex: 1;
     margin-left: 150px;
     margin-right: 150px;
     background-color: #3882f6;
     color: white;
     border-radius: 6px;
-    padding: 10px 30px 10px 30px;
+    padding: 35px 60px 35px 60px;
 }
 
 .call-text {
    display: flex; 
    flex-direction: column;
    align-items: flex-start;
-   margin: 0;
-   gap: 10px;
+   justify-content: center;
+   
+}
 
+.action {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.click {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
 }
 
 .call-button {
     border-color: white;
-
+    border-style: solid;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .footer {
