@@ -1,3 +1,3 @@
 # odin-landing-page
 
-This is my project for the flexbox unit of Odin's Foundation Course.
+This is my project for the flexbox unit of Odin's Foundation Course. I created a landing page based on a photo and font and style guide. I practiced HTML, CSS, and Flexbox. There were some unspecified properties that I assumed but I'm sure I will learn that there are certain standards and preferences for these properties. My biggest concern during this project was that I was writing too much code to solve problems that may have had more simple and elegant solutions that result in less code. Still, the page is very close to the image I was provided. 
