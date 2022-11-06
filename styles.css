@@ -91,10 +91,10 @@ ul {
     gap: 20px; 
 }
 
-li {
-    display: flex;
+.info-list {
+   display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1; 
 }
 
 li p {
